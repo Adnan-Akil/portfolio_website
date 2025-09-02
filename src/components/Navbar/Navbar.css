@@ -24,3 +24,6 @@
   text-decoration: none;
   color: inherit;
 }
+.navbar .link:hover{
+  color: #00bcd4;
+}

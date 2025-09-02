@@ -8,7 +8,7 @@ const Navbar = () => {
         <ul>
           <li><a href={import.meta.env.VITE_GITHUB} target="_blank" className='link'>Github</a></li>
           <li><a href={import.meta.env.VITE_LINKEDIN} target="_blank" className='link'>LinkedIn</a></li>
-          <li><a href={import.meta.env.VITE_GMAIL} target="_blank" className='link'>Email</a></li>
+          <li><a href={import.meta.env.VITE_GMAIL} target="_blank" className='link'>Email Me</a></li>
         </ul>
       </div>
     </div>
