@@ -1,0 +1,11 @@
+.name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.name p{
+  font-size: 235px;
+  font-family: "Londrina Outline";
+  font-weight: 800;
+}

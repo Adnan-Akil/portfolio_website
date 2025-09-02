@@ -1,0 +1,26 @@
+.navbar{
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #44444E;
+  z-index: 1;
+  padding: 3px ;
+}
+.navbar ul{
+  display: flex;
+  gap: 100px;
+  padding: 10px;
+  justify-content: center;
+  list-style: none;
+  font-size: 20px;
+  font-family: "ubuntu mono";
+  color: white;
+}
+.navbar ul li{
+  cursor: pointer;
+}
+.navbar .link{
+  text-decoration: none;
+  color: inherit;
+}
