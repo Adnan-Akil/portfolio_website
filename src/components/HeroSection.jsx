@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className='top-0 left-0'>
-      <h1 className='absolute text-[128px] mt-[72px] select-none leading-[120px] p-8 notable w-full text-white'>Hi, I am Adnan Akil!</h1>
+    <div className="top-0 left-0">
+      <h1 className="absolute text-[128px] mt-[72px] select-none leading-[120px] p-8 notable w-full text-white">
+        Hello,{" "}
+        <span>
+          <br />
+          I'm Adnan Akil!
+        </span>
+      </h1>
     </div>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;

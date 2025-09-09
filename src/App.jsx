@@ -1,6 +1,5 @@
 import React from 'react'
 import Home from './Home/Home'
-import Background from './components/Background'
 import Navbar from './components/Navbar'
 
 const App = () => {
@@ -8,7 +7,6 @@ const App = () => {
     <div>
       <Navbar />
       <Home />
-      <Background />
     </div>
   )
 }
