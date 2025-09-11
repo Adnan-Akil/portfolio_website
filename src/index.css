@@ -1,8 +1,7 @@
 @import "tailwindcss";
 :root{
   font-family: 'Ubuntu Mono';
-  background-color: rgba(214, 115, 51, 0.8)
-;
+  background-color: rgba(214, 115, 51, 0.8);
 }
 body {
   margin: 0;
