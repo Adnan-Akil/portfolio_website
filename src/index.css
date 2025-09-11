@@ -1,8 +1,8 @@
 @import "tailwindcss";
-
 :root{
   font-family: 'Ubuntu Mono';
-  background-color: rgba(125,126,124,1);
+  background-color: rgba(214, 115, 51, 0.8)
+;
 }
 body {
   margin: 0;
@@ -20,4 +20,13 @@ body {
 }
 .html{
   scroll-behavior: smooth;
+}
+/* global.css or index.css */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE/Edge */
+  scrollbar-width: none;     /* Firefox */
 }
