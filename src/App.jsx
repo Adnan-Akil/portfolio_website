@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div>
+    <div className="w-full min-h-screen relative overflow-hidden text-white">
       <Navbar />
       <Home />
     </div>

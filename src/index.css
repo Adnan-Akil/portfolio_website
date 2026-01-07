@@ -1,31 +1,41 @@
 @import "tailwindcss";
-:root{
-  font-family: 'Ubuntu Mono';
-  background-color: rgba(214, 115, 51, 0.8);
-}
-body {
-  margin: 0;
-  display: flex;
-}
-.ubuntu-mono {
-  font-family: "Ubuntu Mono", monospace;
-  font-weight: 800;
-  font-style: italic;
-}
-.notable {
-  font-family: "Notable", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.html{
-  scroll-behavior: smooth;
-}
-/* global.css or index.css */
-.hide-scrollbar::-webkit-scrollbar {
-  display: none; /* Chrome, Safari */
+
+@layer base {
+  :root {
+    --primary-bg: 214, 115, 51; /* Keeping the orange-ish tone if desired, or we can shift */
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply m-0 flex flex-col min-h-screen bg-black text-white overflow-x-hidden;
+  }
 }
 
-.hide-scrollbar {
-  -ms-overflow-style: none;  /* IE/Edge */
-  scrollbar-width: none;     /* Firefox */
+@layer utilities {
+  .ubuntu-mono {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  .notable {
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 }
