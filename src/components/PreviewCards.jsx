@@ -2,11 +2,6 @@ import React from 'react'
 
 const projects = [
   {
-    name: "Netflix Clone",
-    video: "/netflix_preview.mp4",
-    link: "https://netflixx-clonee-three.vercel.app/",
-  },
-  {
     name: "DocuRAG Chatbot",
     video: "/rag_preview.mp4",
     link: "https://docuragchatbot-kngarfajr3kn2wblrvb7kb.streamlit.app/",
@@ -30,7 +25,7 @@ const projects = [
 
 const PreviewCards = () => {
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 md:px-8 py-4">
+    <div className="w-full max-w-7xl mx-auto px-4 py-8 lg:py-0">
       <h2 className="text-2xl md:text-3xl text-white ubuntu-mono mb-6 border-l-4 border-orange-500 pl-4">
         Projects //
       </h2>

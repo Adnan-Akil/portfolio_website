@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroSection from '../components/HeroSection'
 import PreviewCards from '../components/PreviewCards'
+
 import ParticlesBackground from '../components/ParticlesBackground'
 
 const Home = () => {
@@ -22,6 +23,8 @@ const Home = () => {
         <HeroSection />
         <PreviewCards />
       </div>
+
+
     </main>
   )
 }
